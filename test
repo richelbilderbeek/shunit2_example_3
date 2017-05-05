@@ -1,16 +1,7 @@
 #!/bin/bash
 
 . my_functions
-
-test_is_password_incorrect()
-{
-    assertEquals `is_password welcome01` 0
-}
-
-test_is_password_correct()
-{
-    assertEquals `is_password iloverichel` 1
-}
+. my_functions_test
 
 # load shunit2
 . ../shunit2/source/2.1/src/shunit2
