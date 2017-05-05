@@ -15,4 +15,5 @@ The file `my_functions_test` contains the test.
 
 The file `run` prompts the user for a password, and displays a message dependent if the password is correct.
 
-The file `tests` tests the function `is_password`, using `shunit2`.
+The file `tests` sources the tests of `my_functions_test` and `shunit2`, which triggers all tests to run.
+Note: in practice this does not happen yet.
